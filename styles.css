@@ -178,3 +178,58 @@ section {
     opacity: 1;
     visibility: visible;
 }
+/* Ensure containers take full width on smaller screens */
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    /* Ensure portfolio and job items are stacked vertically */
+    .portfolio-item, .job {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Adjust the layout of content in the portfolio section */
+    .portfolio {
+        flex-direction: column;
+    }
+
+    /* Ensure text is readable on smaller screens */
+    .content h2 {
+        font-size: 2em;
+    }
+
+    .content p {
+        font-size: 1em;
+    }
+
+    .job h3, .portfolio-item h3 {
+        font-size: 1.3em;
+    }
+
+    .job p, .job ul, .portfolio-item p {
+        font-size: 1em;
+    }
+}
+
+/* Ensure images in the patent section stack vertically on smaller screens */
+@media (max-width: 768px) {
+    #patent div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #patent img {
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 10px;
+    }
+}
+
+/* Add horizontal scrolling to any overflowing content */
+.content-overflow {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
