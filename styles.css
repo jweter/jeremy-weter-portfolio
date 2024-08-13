@@ -1,0 +1,180 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #f4f4f4, #e0e0e0);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styles */
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0779e4 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul li {
+    display: inline;
+}
+
+header ul li a {
+    padding: 20px;
+}
+
+/* Main Header */
+.main-header {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 80px 0;
+}
+
+.main-header h1 {
+    margin: 0;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.main-header p {
+    font-size: 1.2em;
+}
+
+/* Section Styles */
+section {
+    padding: 30px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Content Alignment */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align text to the left */
+    text-align: justify; /* Justify text */
+}
+
+/* Section Headings */
+.content h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #0779e4;
+    font-weight: 500;
+}
+
+/* Paragraph Styles */
+.content p {
+    font-size: 1.2em;
+    line-height: 1.8em;
+    margin-bottom: 30px;
+    letter-spacing: 0.5px;
+}
+
+/* Portfolio and Job Styles */
+.portfolio-item, .job {
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    width: 100%; /* Full width for better readability */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.portfolio-item:hover, .job:hover {
+    transform: translateY(-5px);
+}
+
+/* Job Title and Details */
+.job h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.job p, .job ul {
+    font-size: 1.1em;
+    line-height: 1.6em;
+    margin: 5px 0;
+}
+
+.job ul {
+    padding-left: 20px; /* Indent bullet points */
+    list-style: disc; /* Standard bullet points */
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #0779e4;
+    text-decoration: none;
+}
+
+/* Add borders and shadows to all images */
+img {
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Adds space below the images */
+}
+footer a:hover, .container a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+/* Add more spacing between sections */
+section {
+    padding: 40px 0;  /* Adjust the spacing as needed */
+}
+/* Scroll-to-Top Button Styling */
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none; /* Hidden by default */
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.scroll-to-top:hover {
+    background-color: #0056b3;
+}
+
+.scroll-to-top.show {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
