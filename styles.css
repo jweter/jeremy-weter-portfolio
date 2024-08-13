@@ -233,3 +233,45 @@ section {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
 }
+/* General fix for text and container width on smaller screens */
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .content, .portfolio-item, .job {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 10px;
+    }
+
+    .portfolio-item {
+        margin-bottom: 20px;
+    }
+
+    h2, h3 {
+        font-size: 1.5em;
+    }
+
+    p, ul {
+        font-size: 1em;
+        word-wrap: break-word;
+    }
+
+    /* Flexbox adjustments for Portfolio and Patent sections */
+    .portfolio, #patent div {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #patent img {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+/* Ensuring no content overflows horizontally */
+body {
+    overflow-x: hidden;
+}
