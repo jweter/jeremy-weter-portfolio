@@ -77,8 +77,9 @@
 
     <section id="certifications">
         <div class="container content">
-            <h2><i class="fas fa-certificate"></i> Certifications</h2>
-            <ul>
+            <h2><i class="fas fa-certificate"></i> Certifications <i class="fas fa-chevron-down" onclick="toggleSection('certifications-details')"></i></h2>
+            <div id="certifications-details" style="display: none;">
+                <ul>
                 <li><strong>Data Science Certifications:</strong>
                     IBM Data Science Professional Certificate (2023), 
                     IBM Introduction to Data Science (2023), 
@@ -108,8 +109,8 @@
 
     <section id="work-history">
         <div class="container content">
-            <h2><i class="fas fa-briefcase"></i> Work History</h2>
-            
+            <h2><i class="fas fa-briefcase"></i> Work History <i class="fas fa-chevron-down" onclick="toggleSection('work-history-details')"></i></h2>
+        <div id="work-history-details" style="display: none;">
             <div class="job">
                 <h3>Chemical Analyst - Scientist II Manufacturing Sciences</h3>
                 <p><strong>Thermo Fisher Scientific AS / Life Technologies AS – Oslo / Lillestrøm, Norway</strong></p>
@@ -317,6 +318,16 @@
             document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
         };
     </script>
-        
+        <script>
+            function toggleSection(id) {
+                var section = document.getElementById(id);
+                if (section.style.display === "none") {
+                    section.style.display = "block";
+                } else {
+                    section.style.display = "none";
+                }
+            }
+            </script>
+            
 </body>
 </html>
