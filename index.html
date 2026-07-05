@@ -1,333 +1,343 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-5QVEBJN8BZ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-5QVEBJN8BZ');
-</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jeremy Weter - Data Scientist</title>
+    <meta name="description" content="Portfolio and resume for Jeremy Weter, a data scientist and chemical analyst focused on analytical chemistry, data analysis, dashboards, and applied machine learning.">
+    <title>Jeremy Weter | Data Scientist & Chemical Analyst</title>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QVEBJN8BZ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-5QVEBJN8BZ');
+    </script>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
-    <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <ul>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
+    <header class="site-header">
+        <nav class="container nav" aria-label="Primary navigation">
+            <a class="brand" href="#top">Jeremy Weter</a>
+            <div class="nav-links">
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
     </header>
 
-    <div class="main-header">
-        <h1>Jeremy Weter</h1>
-        <p>Data Scientist & Chemical Analyst</p>
-    </div>
-
-    <section id="skills">
-        <div class="container content">
-            <h2><i class="fas fa-cogs"></i> Skills</h2>
-            <ul>
-                <li><strong>Machine Learning:</strong> 
-                    Supervised Learning (Linear Regression, Logistic Regression, Ridge Regression, LASSO, Elastic Net, K-Nearest Neighbors (KNN), Support Vector Machines (SVM), Decision Trees, Ensemble Models (Random Forest, Gradient Boosting)), 
-                    Model Evaluation & Tuning (MSE, RMSE, F1 Score, ROC-AUC, Cross-Validation Techniques, Hyperparameter Tuning), 
-                    Handling Imbalanced Data (Stratified Sampling, Oversampling, Undersampling Techniques), 
-                    Feature Engineering (Variable Transformation, Polynomial Features, Feature Scaling, Encoding Techniques)
-                </li>
-                <li><strong>Statistical Analysis:</strong> 
-                    Hypothesis Testing (Frequentist and Bayesian Approaches, t-tests, ANOVA, Chi-square, P-Values, Significance Levels, Type I/II Errors), 
-                    Exploratory Data Analysis (EDA), Probability Distributions (Normal, Binomial, Poisson)
-                </li>
-                <li><strong>Data Management:</strong> 
-                    Data Retrieval (SQL, NoSQL, APIs, Cloud (AWS, GCP)), 
-                    Data Cleaning & Preparation (Handling Missing Data, Outliers, Normalization, Data Integration), 
-                    Data Wrangling (Pandas, NumPy)
-                </li>
-                <li><strong>Programming Languages:</strong> 
-                    Python (Pandas, NumPy, Scikit-learn, TensorFlow, Matplotlib, Seaborn), 
-                    R (ggplot2, dplyr), 
-                    SQL, 
-                    Basic Knowledge of C and Java
-                </li>
-                <li><strong>Data Visualization:</strong> 
-                    Matplotlib, Seaborn, Jupyter Notebooks, 
-                    Dashboarding with Tableau
-                </li>
-                <li><strong>Cloud Computing:</strong> 
-                    AWS (EC2, S3, SageMaker), 
-                    GCP (BigQuery, Cloud Storage), 
-                    Azure (Azure ML, Blob Storage)
-                </li>
-                <li><strong>Project Management:</strong> 
-                    Agile Methodologies (Scrum, Kanban), 
-                    Stakeholder Communication (Presentations, Technical Writing, Reports)
-                </li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="certifications">
-        <div class="container content">
-            <h2><i class="fas fa-certificate"></i> Certifications <i class="fas fa-chevron-down" onclick="toggleSection('certifications-details')"></i></h2>
-            <div id="certifications-details" style="display: none;">
-                <ul>
-                <li><strong>Data Science Certifications:</strong>
-                    IBM Data Science Professional Certificate (2023), 
-                    IBM Introduction to Data Science (2023), 
-                    IBM Data Analysis (2023)
-                </li>
-                <li><strong>Programming Certifications:</strong>
-                    IBM Python Programming (2023), 
-                    IBM R Programming (2023), 
-                    IBM SQL (2023), 
-                    Kaggle Python (2024)
-                </li>
-                <li><strong>Machine Learning Certifications:</strong>
-                    IBM Machine Learning (2023), 
-                    IBM Statistical Machine Learning (2023), 
-                    IBM Introduction to Machine Learning (In Progress)
-                </li>
-                <li><strong>Cloud and Data Management Certifications:</strong>
-                    IBM Cloud (2023), 
-                    IBM Data Model (2023)
-                </li>
-                <li><strong>Regulatory Compliance Certifications:</strong>
-                    Coursera Regulatory Compliance Specialization (2024)
-                </li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="work-history">
-        <div class="container content">
-            <h2><i class="fas fa-briefcase"></i> Work History <i class="fas fa-chevron-down" onclick="toggleSection('work-history-details')"></i></h2>
-        <div id="work-history-details" style="display: none;">
-            <div class="job">
-                <h3>Chemical Analyst - Scientist II Manufacturing Sciences</h3>
-                <p><strong>Thermo Fisher Scientific AS / Life Technologies AS – Oslo / Lillestrøm, Norway</strong></p>
-                <p><strong>April 2017 - June 2018</strong></p>
-                <ul>
-                    <li>Developed analytical methodologies for precise characterization of magnetic microbeads.</li>
-                    <li>Managed quality control processes for pre-production and post-production stages.</li>
-                    <li>Conducted stability studies to ensure long-term product reliability.</li>
-                    <li>Analyzed experimental data using Python and R, compiled reports for stakeholders and regulatory bodies.</li>
-                    <li>Specialized in sample preparation, chemical analysis, and laboratory instrument maintenance.</li>
-                    <li>Optimized legacy instrumentation workflow by virtualizing the instrument's software on a high-performance virtual machine, reducing processing time by weeks and enabling more in-depth analysis, resulting in early project completion.</li>
-                    <li>Collaborated with cross-functional teams to develop new products and improve processes.</li>
-                </ul>
-            </div>
-            
-            <div class="job">
-                <h3>Formulations Chemist</h3>
-                <p><strong>Monsanto – Creve Coeur, Missouri</strong></p>
-                <p><strong>February 2016 - August 2016</strong></p>
-                <ul>
-                    <li>Conducted tests on surfactants and chemicals, meticulously recording laboratory work.</li>
-                    <li>Designed and implemented multivariate studies to refine product formulations.</li>
-                    <li>Managed long-term stability studies and generated comprehensive reports.</li>
-                    <li>Developed prototype products for evaluation in focus groups and greenhouse trials.</li>
-                    <li>Improved bioavailability of active ingredients with low solubility through innovative formulation adjustments.</li>
-                </ul>
-            </div>
-            
-            <div class="job">
-                <h3>Chemist II</h3>
-                <p><strong>Sensient Colors INC. – St. Louis, Missouri</strong></p>
-                <p><strong>December 2015 - January 2016</strong></p>
-                <ul>
-                    <li>Operated wet and analytical chemistry techniques for comprehensive sample analysis.</li>
-                    <li>Conducted allergen tests and prepared samples for trace heavy metal analysis.</li>
-                    <li>Communicated findings through oral and written reports, collaborated with team members.</li>
-                    <li>Ensured calibration and maintenance of instruments, maintained laboratory cleanliness.</li>
-                    <li>Provided guidance and training to junior chemists and technicians.</li>
-                </ul>
-            </div>
-            
-            <div class="job">
-                <h3>Quality Technician</h3>
-                <p><strong>Par-Way Tryson – St. Clair, Missouri</strong></p>
-                <p><strong>November 2014 - June 2015</strong></p>
-                <ul>
-                    <li>Conducted comprehensive tests on oils and ingredients, assessed specific gravity, viscosity, pH, and refractive index.</li>
-                    <li>Analyzed test results in Excel to monitor and identify quality trends.</li>
-                    <li>Managed multiple experiments, ensured rigorous laboratory standards, and precise calibration of instruments.</li>
-                    <li>Contributed to the development and implementation of quality control procedures.</li>
-                </ul>
-            </div>
-            
-            <div class="job">
-                <h3>Research and Design Chemist</h3>
-                <p><strong>BioSpan Technologies INC. – Washington, Missouri</strong></p>
-                <p><strong>October 2013 – November 2014</strong></p>
-                <ul>
-                    <li>Integrated Organic Chemistry and Microbiology to design innovative experiments.</li>
-                    <li>Utilized FTIR Spectrometry for sample identification.</li>
-                    <li>Developed custom solutions for specific customer needs, contributed to scientific research reports.</li>
-                    <li>Managed laboratory tasks from sample preparation to formulation of chemical standards.</li>
-                    <li>Collaborated with clients to understand needs and provide tailored solutions.</li>
-                </ul>
-            </div>
-            
-            <div class="job">
-                <h3>Chemical Analyst</h3>
-                <p><strong>Scutter Enterprises LLC – O’Fallon, Missouri</strong></p>
-                <p><strong>July 2013 - October 2013</strong></p>
-                <ul>
-                    <li>Operated atomic absorption flame spectrometer for accurate measurement of metal concentrations.</li>
-                    <li>Managed laboratory setup and inventory, ensured efficient operations.</li>
-                    <li>Conducted sample preparation and chemical standard formulation.</li>
-                    <li>Implemented safety protocols for handling volatile acids and gases.</li>
-                    <li>Assisted in the development of new analytical methods.</li>
-                </ul>
-            </div>
-            
-            <div class="job">
-                <h3>Research Scientist</h3>
-                <p><strong>Maryville University – Saint Louis, Missouri</strong></p>
-                <p><strong>June 2013 - August 2013</strong></p>
-                <ul>
-                    <li>Developed and launched a web-based learning module on Atomic Absorption Flame Spectrometry.</li>
-                    <li>Created detailed photo diagrams and content for peer review.</li>
-                    <li>Utilized WordPress for web design and content development.</li>
-                    <li>Presented the MicroSpec Project at Pittcon 2014, showcasing a micro-scale UV/Vis spectrometer.</li>
-                </ul>
-            </div>
-            
-        </div>
-    </section>
-    
-
-    <section id="portfolio">
-        <div class="container content">
-            <h2><i class="fas fa-project-diagram"></i> Portfolio</h2>
-            <div class="portfolio">
-                <div class="portfolio-item">
-                    <h3>Interactive Dashboard: Sales and Customer Analytics</h3>
-                    <p>Explore this interactive dashboard to see customer segmentation, sales trends, and product popularity based on real retail data.</p>
-                    <!-- Embed Tableau Dashboard -->
-                    <div class='tableauPlaceholder' id='viz1723579371544' style='position: relative'>
-                        <noscript><a href='#'><img alt='Dashboard 1' src='https://public.tableau.com/static/images/Sa/SalesandCustomerAnalytics/Dashboard1/1_rss.png' style='border: none' /></a></noscript>
-                        <object class='tableauViz' style='display:none;'>
-                            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-                            <param name='embed_code_version' value='3' />
-                            <param name='site_root' value='' />
-                            <param name='name' value='SalesandCustomerAnalytics&#47;Dashboard1' />
-                            <param name='tabs' value='no' />
-                            <param name='toolbar' value='yes' />
-                            <param name='static_image' value='https://public.tableau.com/static/images/Sa/SalesandCustomerAnalytics/Dashboard1/1.png' />
-                            <param name='animate_transition' value='yes' />
-                            <param name='display_static_image' value='yes' />
-                            <param name='display_spinner' value='yes' />
-                            <param name='display_overlay' value='yes' />
-                            <param name='display_count' value='yes' />
-                            <param name='language' value='en-US' />
-                        </object>
+    <main id="top">
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow">Data Science | cGMP Manufacturing | Analytical Chemistry</p>
+                    <h1>Production scientist building toward a future in data science.</h1>
+                    <p class="hero-summary">
+                        I combine cGMP manufacturing, quality systems, analytical chemistry, SQL/Python, dashboards, and practical workflow automation to make operational data easier to understand and act on.
+                    </p>
+                    <div class="target-roles" aria-label="Target roles">
+                        <span>Target roles:</span>
+                        <p>Data Analyst, Manufacturing Data Analyst, Quality Data Analyst, Junior Data Scientist, Laboratory Data Scientist</p>
                     </div>
-                    <script type='text/javascript'>
-                        var divElement = document.getElementById('viz1723579371544');
-                        var vizElement = divElement.getElementsByTagName('object')[0];
-                        if (divElement.offsetWidth > 800) {
-                            vizElement.style.minWidth = '420px';
-                            vizElement.style.maxWidth = '650px';
-                            vizElement.style.width = '100%';
-                            vizElement.style.minHeight = '587px';
-                            vizElement.style.maxHeight = '887px';
-                            vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
-                        } else if (divElement.offsetWidth > 500) {
-                            vizElement.style.minWidth = '420px';
-                            vizElement.style.maxWidth = '650px';
-                            vizElement.style.width = '100%';
-                            vizElement.style.minHeight = '587px';
-                            vizElement.style.maxHeight = '887px';
-                            vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
-                        } else {
-                            vizElement.style.width = '100%';
-                            vizElement.style.height = '1277px';
-                        }
-                        var scriptElement = document.createElement('script');
-                        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-                        vizElement.parentNode.insertBefore(scriptElement, vizElement);
-                    </script>
+                    <div class="hero-actions">
+                        <a class="button primary" href="Jeremy-Weter-Resume-2026.docx" download>Download Resume</a>
+                        <a class="button secondary" href="https://www.linkedin.com/in/jeremy-weter/" target="_blank" rel="noopener">LinkedIn</a>
+                    </div>
+                </div>
+                <aside class="hero-card" aria-label="Professional summary">
+                    <h2>Focus Areas</h2>
+                    <ul>
+                        <li>Operational dashboards and trend summaries</li>
+                        <li>SQL, Python, R, Power BI, and Tableau</li>
+                        <li>TrackWise quality systems, SAP, cGMP, and ISO 13485</li>
+                        <li>AI-assisted SOP and workflow support tools</li>
+                    </ul>
+                </aside>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">Capabilities</p>
+                    <h2>Skills</h2>
+                </div>
+                <div class="skill-grid">
+                    <article class="skill-card">
+                        <h3><i class="fas fa-chart-line"></i> Data Science</h3>
+                        <p>Operational data analysis, dashboards, trend summaries, SQL, Python, R, data visualization, regression, classification, feature selection, and ensemble methods.</p>
+                    </article>
+                    <article class="skill-card">
+                        <h3><i class="fas fa-code"></i> Programming</h3>
+                        <p>Python, R, SQL, HTML, Jupyter Notebooks, Tableau, Power BI familiarity, cloud fundamentals across AWS, GCP, and Azure, plus working knowledge of Java and C.</p>
+                    </article>
+                    <article class="skill-card">
+                        <h3><i class="fas fa-industry"></i> Manufacturing Quality</h3>
+                        <p>cGMP and ISO 13485 manufacturing, TrackWise deviations and change controls, CAPA/RCA documentation support, SAP usage, batch records, and audit readiness.</p>
+                    </article>
+                    <article class="skill-card">
+                        <h3><i class="fas fa-flask"></i> Laboratory Analysis</h3>
+                        <p>Sample preparation, titration, spectrometry, chromatography, GC, HPLC, FTIR, NMR, UV/Vis, mass spectrometry, microbiological methods, and technical documentation.</p>
+                    </article>
                 </div>
             </div>
-        </div>
-    </section>
-    
-    
+        </section>
 
-    <section id="patent">
-        <div class="container content">
-            <h2><i class="fas fa-lightbulb"></i> Patent</h2>
-            <!-- Image Row for Three Images -->
-            <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
-                <img src="spectrometer_diagram1.jpg" alt="Diagram of Micro-scale UV/Vis Spectrometer - View 1" style="width: 100%; max-width: 300px;"/>
-                <img src="spectrometer_diagram2.jpg" alt="Diagram of Micro-scale UV/Vis Spectrometer - View 2" style="width: 100%; max-width: 300px;"/>
-                <img src="spectrometer_test_graph.jpg" alt="Test Data Graph of Micro-scale UV/Vis Spectrometer" style="width: 100%; max-width: 300px;"/>
+        <section id="projects" class="section muted">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">Selected Work</p>
+                    <h2>Projects</h2>
+                </div>
+                <div class="project-grid">
+                    <article class="project-card featured">
+                        <div>
+                            <p class="project-type">Dashboard</p>
+                            <h3>Sales and Customer Analytics</h3>
+                            <p>
+                                Interactive Tableau dashboard exploring customer segmentation, sales trends, and product popularity with retail transaction data.
+                            </p>
+                            <div class="project-links">
+                                <a href="Online Retail.xlsx" download>Download Dataset</a>
+                            </div>
+                        </div>
+                        <div class="tableau-frame">
+                            <div class="tableauPlaceholder" id="viz1723579371544">
+                                <noscript>
+                                    <a href="#">
+                                        <img alt="Sales and Customer Analytics dashboard" src="https://public.tableau.com/static/images/Sa/SalesandCustomerAnalytics/Dashboard1/1_rss.png">
+                                    </a>
+                                </noscript>
+                                <object class="tableauViz">
+                                    <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F">
+                                    <param name="embed_code_version" value="3">
+                                    <param name="site_root" value="">
+                                    <param name="name" value="SalesandCustomerAnalytics&#47;Dashboard1">
+                                    <param name="tabs" value="no">
+                                    <param name="toolbar" value="yes">
+                                    <param name="static_image" value="https://public.tableau.com/static/images/Sa/SalesandCustomerAnalytics/Dashboard1/1.png">
+                                    <param name="animate_transition" value="yes">
+                                    <param name="display_static_image" value="yes">
+                                    <param name="display_spinner" value="yes">
+                                    <param name="display_overlay" value="yes">
+                                    <param name="display_count" value="yes">
+                                    <param name="language" value="en-US">
+                                </object>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <p class="project-type">Software</p>
+                        <h3>RiffEdit</h3>
+                        <p>
+                            Flask app for transforming text-based guitar and bass tabs, previewing riffs with browser audio, and exporting tab, MIDI, or MusicXML.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/jweter/RiffEdit" target="_blank" rel="noopener">View Repository</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <p class="project-type">Patent</p>
+                        <h3>Micro-scale UV/Vis Spectrometer</h3>
+                        <p>
+                            Miniaturized UV/Vis spectrometer concept using Bluetooth Low Energy technology for dye analysis and portable measurement workflows.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://patents.google.com/patent/WO2015112919A3" target="_blank" rel="noopener">View Patent</a>
+                        </div>
+                    </article>
+                </div>
             </div>
-            <p><strong>Title:</strong> Micro-scale UV/Vis Spectrometer Using Bluetooth Low-Energy Technology</p>
-            <p><strong>Patent Number:</strong> WO2015112919A3</p>
-            <p><strong>Date Granted:</strong> August 6, 2015</p>
-            <p><strong>Description:</strong> Designed and implemented an innovative micro-scale UV/Vis spectrometer for dye analysis with an accompanying iPad app for measurement and data analysis.</p>
-            <p><strong>Abstract:</strong> A miniaturized spectrometer capable of being held and carried in a person's hand and including all of the necessary elements for reliable quantification and characterization for laboratory purposes, of a variety of objects, including an analyte in solution, and that is also optionally adaptable for analysis of an analyte in gaseous phase, and/or on or embedded in a solid surface.</p>
-            <p><a href="https://patents.google.com/patent/WO2015112919A3" target="_blank">View Patent on Google Patents</a></p>
-        </div>
-    </section>
-    
-    
+        </section>
 
-    <section id="contact">
-        <div class="container content">
-            <h2><i class="fas fa-envelope"></i> Contact</h2>
-            <p><a href="https://www.linkedin.com/in/jeremy-weter/" target="_blank">LinkedIn Profile</a></p>
-            <p><a href="resume.pdf" download>Download Resume</a></p>
-        </div>
-    </section>
+        <section id="patent" class="section">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">Research & Invention</p>
+                    <h2>Patent Highlight</h2>
+                </div>
+                <div class="patent-layout">
+                    <div class="patent-copy">
+                        <h3>Micro-scale UV/Vis Spectrometer Using Bluetooth Low-Energy Technology</h3>
+                        <p><strong>Patent:</strong> WO2015112919A3</p>
+                        <p><strong>Granted:</strong> August 6, 2015</p>
+                        <p>
+                            Designed and implemented an innovative micro-scale UV/Vis spectrometer for dye analysis, paired with an iPad app for measurement and data review.
+                        </p>
+                    </div>
+                    <div class="patent-images" aria-label="Spectrometer diagrams and test graph">
+                        <img src="spectrometer_diagram1.jpg" alt="Micro-scale UV/Vis spectrometer diagram, view 1">
+                        <img src="spectrometer_diagram2.jpg" alt="Micro-scale UV/Vis spectrometer diagram, view 2">
+                        <img src="spectrometer_test_graph.jpg" alt="Micro-scale UV/Vis spectrometer test graph">
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <footer>
-        <p>&copy; 2024 Jeremy Weter. All Rights Reserved.</p>
+        <section id="experience" class="section muted">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">Background</p>
+                    <h2>Experience</h2>
+                </div>
+                <div class="timeline">
+                    <article class="job">
+                        <div class="job-meta">
+                            <h3>Associate Production Scientist</h3>
+                            <p>Merck KGaA MilliporeSigma - Hematology & Histology, St. Louis, Missouri</p>
+                            <span>March 2025 - Present (contract to full-time September 2, 2025)</span>
+                        </div>
+                        <ul>
+                            <li>Support end-to-end batch manufacturing, filling, packaging, documentation, and quality-system work in a cGMP and ISO 13485 environment.</li>
+                            <li>Initiate and support TrackWise deviations and change controls; trained on CAPAs and contribute to RCA writing and investigation documentation.</li>
+                            <li>Run material staging, weigh-ups, tank prewash/cleaning, stepwise additions, mix parameters, MMF records, and final overpack documentation.</li>
+                            <li>Build dashboards and trend summaries for supply gaps, backorders, and operational holds to surface recurring bottlenecks and action owners.</li>
+                            <li>Prototype AI-assisted SOP and workflow support in Merck GPT to standardize label-printing steps, reduce errors, and improve onboarding coverage.</li>
+                        </ul>
+                    </article>
+
+                    <article class="job">
+                        <div class="job-meta">
+                            <h3>Chemical Analyst - Scientist II Manufacturing Sciences</h3>
+                            <p>Thermo Fisher Scientific AS / Life Technologies AS - Oslo / Lillestrom, Norway</p>
+                            <span>April 2017 - June 2018</span>
+                        </div>
+                        <ul>
+                            <li>Developed analytical methodologies, increasing accuracy for characterization of magnetic microbeads.</li>
+                            <li>Managed quality-control processes across pre-production and post-production stages.</li>
+                            <li>Conducted stability studies to support long-term product reliability and integrity.</li>
+                            <li>Analyzed experimental data with Python and R and prepared technical reports for stakeholders.</li>
+                            <li>Collaborated with cross-functional teams to develop new products and improve existing processes.</li>
+                        </ul>
+                    </article>
+
+                    <article class="job">
+                        <div class="job-meta">
+                            <h3>Formulations Chemist</h3>
+                            <p>Monsanto - Creve Coeur, Missouri</p>
+                            <span>February 2016 - August 2016</span>
+                        </div>
+                        <ul>
+                            <li>Conducted testing on surfactants and chemicals while maintaining detailed laboratory records.</li>
+                            <li>Designed multivariate studies to refine product formulations.</li>
+                            <li>Led long-term stability studies and generated reports for internal and external review.</li>
+                            <li>Developed prototype products for focus groups and greenhouse trials.</li>
+                        </ul>
+                    </article>
+
+                    <article class="job">
+                        <div class="job-meta">
+                            <h3>Chemist II</h3>
+                            <p>Sensient Colors Inc. - St. Louis, Missouri</p>
+                            <span>December 2015 - January 2016</span>
+                        </div>
+                        <ul>
+                            <li>Operated wet and analytical chemistry methods for sample analysis.</li>
+                            <li>Prepared samples for trace metal analysis using ICP and conducted allergen tests.</li>
+                            <li>Communicated findings through oral and written reports.</li>
+                            <li>Maintained instrument calibration, laboratory cleanliness, and quality standards.</li>
+                        </ul>
+                    </article>
+
+                    <details class="more-experience">
+                        <summary>Earlier experience</summary>
+                        <article class="job compact">
+                            <h3>Quality Technician</h3>
+                            <p>Par-Way Tryson - St. Clair, Missouri | November 2014 - June 2015</p>
+                            <p>Tested oils and ingredients, tracked quality trends in Excel, and supported laboratory calibration and quality-control procedures.</p>
+                        </article>
+                        <article class="job compact">
+                            <h3>Research and Design Chemist</h3>
+                            <p>BioSpan Technologies Inc. - Washington, Missouri | October 2013 - November 2014</p>
+                            <p>Combined organic chemistry and microbiology methods, used FTIR spectroscopy, and contributed to customer-focused formulation work.</p>
+                        </article>
+                        <article class="job compact">
+                            <h3>Chemical Analyst</h3>
+                            <p>Scutter Enterprises LLC - O'Fallon, Missouri | July 2013 - October 2013</p>
+                            <p>Operated atomic absorption flame spectrometry, prepared samples and standards, and supported laboratory setup and safety processes.</p>
+                        </article>
+                        <article class="job compact">
+                            <h3>Research Scientist</h3>
+                            <p>Maryville University - Saint Louis, Missouri | June 2013 - August 2013</p>
+                            <p>Developed a web-based Atomic Absorption Flame Spectrometry learning module and presented the MicroSpec project at Pittcon 2014.</p>
+                        </article>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications" class="section">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">Learning</p>
+                    <h2>Education & Certifications</h2>
+                </div>
+                <div class="cert-grid">
+                    <p><strong>Education:</strong> Bachelor of Science in Biochemistry, Maryville University, St. Louis, Missouri. Graduated May 2014.</p>
+                    <p><strong>Data Science:</strong> Databases and SQL for Data Science with Python; Data Science Methodology; Data Science Orientation; Python Project for Data Science; Python for Data Science and AI; Tools for Data Science.</p>
+                    <p><strong>Machine Learning:</strong> IBM Introduction to Machine Learning Specialization; resume also lists Bayesian methods, neural networks, ensemble methods, feature selection, classification, and regression.</p>
+                    <p><strong>Compliance:</strong> Regulatory Compliance Specialization; Effective Compliance Programs; Privacy Law and Data Protection; What is Compliance?; Anti-Corruption and Compliance.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <div class="container contact-card">
+                <div>
+                    <p class="eyebrow">Contact</p>
+                    <h2>Let's connect.</h2>
+                    <p>For professional background, project details, or resume review, start with LinkedIn or the downloadable resume. My long-term direction is Data Science, with a strong fit for data roles connected to manufacturing, quality, and laboratory operations.</p>
+                </div>
+                <div class="contact-actions">
+                    <a class="button primary" href="https://www.linkedin.com/in/jeremy-weter/" target="_blank" rel="noopener">LinkedIn Profile</a>
+                    <a class="button secondary" href="Jeremy-Weter-Resume-2026.docx" download>Download Resume</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>&copy; <span id="year"></span> Jeremy Weter. All rights reserved.</p>
+            <a href="#top">Back to top</a>
+        </div>
     </footer>
-    <a href="#" class="scroll-to-top" id="scrollToTopBtn">
-        &#8679; Top
-    </a>
+
     <script>
-        // Get the button
-        var scrollToTopBtn = document.getElementById("scrollToTopBtn");
-    
-        // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                scrollToTopBtn.classList.add("show");
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        const tableauContainer = document.getElementById('viz1723579371544');
+        const tableauViz = tableauContainer ? tableauContainer.getElementsByTagName('object')[0] : null;
+
+        if (tableauViz) {
+            if (tableauContainer.offsetWidth > 800) {
+                tableauViz.style.minWidth = '420px';
+                tableauViz.style.maxWidth = '900px';
+                tableauViz.style.width = '100%';
+                tableauViz.style.minHeight = '560px';
+                tableauViz.style.height = `${tableauContainer.offsetWidth * 0.72}px`;
+            } else if (tableauContainer.offsetWidth > 500) {
+                tableauViz.style.minWidth = '420px';
+                tableauViz.style.width = '100%';
+                tableauViz.style.minHeight = '560px';
+                tableauViz.style.height = `${tableauContainer.offsetWidth * 0.78}px`;
             } else {
-                scrollToTopBtn.classList.remove("show");
+                tableauViz.style.width = '100%';
+                tableauViz.style.height = '1120px';
             }
-        };
-    
-        // When the user clicks on the button, scroll to the top of the document
-        scrollToTopBtn.onclick = function(e) {
-            e.preventDefault();
-            document.body.scrollTop = 0; // For Safari
-            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
-        };
+
+            const scriptElement = document.createElement('script');
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+            tableauViz.parentNode.insertBefore(scriptElement, tableauViz);
+        }
     </script>
-        <script>
-            function toggleSection(id) {
-                var section = document.getElementById(id);
-                if (section.style.display === "none") {
-                    section.style.display = "block";
-                } else {
-                    section.style.display = "none";
-                }
-            }
-            </script>
-            
 </body>
 </html>
