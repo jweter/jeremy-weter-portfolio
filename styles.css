@@ -292,23 +292,6 @@ img {
     text-transform: uppercase;
 }
 
-.tableau-frame {
-    background: #f8fbfc;
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    min-height: 420px;
-    overflow: hidden;
-}
-
-.tableauPlaceholder,
-.tableauViz {
-    width: 100%;
-}
-
-.tableauViz {
-    display: none;
-}
-
 .patent-layout {
     align-items: start;
     display: grid;
